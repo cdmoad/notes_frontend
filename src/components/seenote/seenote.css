@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;800&family=Roboto+Slab:wght@600;700&display=swap');
+
+/** scroll bar of the page **/
+body::-webkit-scrollbar {
+    width: 0.7em;
+   
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+     
+ 
+  }
+  /*************************/
+
+ /**  scroll bar in notes **/ 
+.seenotecon2::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  .seenotecon2::-webkit-scrollbar-button {
+    height: 15px;
+  }
+  
+.seenotecon2::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: aquamarine;
+    
+  }
+   
+  
+.seenotecon2::-webkit-scrollbar-thumb {
+    background-color: #333;
+    outline: 1px solid  rgb(209, 209, 209);
+     
+  }
+
+  .editinput::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+  
+.editinput::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: aquamarine;
+  }
+   
+  
+.editinput::-webkit-scrollbar-thumb {
+    background-color: #333;
+    outline: 1px solid  rgb(209, 209, 209);
+     
+  }
+
+  .topicscontainer::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+  
+  .topicscontainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(185, 85, 243, 0.233);
+  }
+   
+  
+.topicscontainer::-webkit-scrollbar-thumb {
+  background-color: rgba(127, 75, 248, 0.719);
+  outline: 1px solid rgb(1, 74, 148);
+  border-radius: 1px;
+     
+  }
+  .topicscontainer::-webkit-scrollbar-button {
+    height: 10px;
+  }
+  
+/******************************/
+
+/** scroll bar for notes container **/
+.seenotegrid1::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+
+.seenotegrid1::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+
+.seenotegrid1::-webkit-scrollbar-thumb {
+  background-color: rgba(169, 169, 169, 0.63);
+    outline: 1px solid slategrey;
+    border-radius: 10px; 
+}
+
+/***********************************/
+
+
+
+
+.searchs{
+    width:72%;
+    height:30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    outline: none;
+    padding:0 5px 0 8px;
+      border:3px solid rgb(255, 255, 255);
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+/*
+t{
+    color:#333;
+    font-weight: bold;
+  
+}
+*/
+
+/** page title **/
+#display2{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+ }
+#resdisplay2{
+    height:40px;
+    width:250px;
+    background-color:   rgba(255, 255, 255, 0.808);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+       
+}
+
+#resdisplay2 p{
+    color:#333;
+    font-family: fantasy;
+    font-size: 23px;
+}
+/*************************/
+
+
+/** home button **/
+.pin{
+    background-color:  #bdbdbdce;
+    border-bottom-right-radius: 90px;
+    width:90px;
+    height:90px;
+     position: fixed;
+     z-index:3;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.pin:hover{
+    background-color:  aquamarine;
+}
+
+
+.pin  p{
+margin-top: 23px;
+margin-right: 13px;
+ font-size: 20px;
+ font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color:#333;
+}
+
+/****************************/
+
+
+/** containers **/
+
+.seenotecon2{
+  
+  background-image:url(../../public/notelines.png);
+  background-size: cover;
+  margin: 2px 15px 15px 15px;
+   width:300px;
+    height:200px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  display: block;
+  overflow-y:scroll;
+  scrollbar-color: #d4aa70 #e4e4e4;
+  scrollbar-width: thin;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seenotecon2 b{
+   font-size: 20px;
+   background-color: rgba(127, 255, 212, 0.774);
+   margin: 0;
+   padding: 0 8px;
+}
+.seenotecon2 pre{
+  font-family: Cairo;
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+.seenotecon1{
+margin-top: 60px;
+   display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+width:100%;
+
+
+}
+
+
+ .notecontainer{
+  background-color:  rgba(231, 231, 231, 0.527);
+  height:fit-content;
+  width:345px;
+  margin:10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  
+ }
+ 
+ .seenotecontainer{
+  display: grid;
+  grid-template-columns: 85% 15%;
+  grid-template-rows: 100vh;
+   overflow-y: scroll;
+   background-image: url(../../public/bg4.jpg);
+   background-size: cover;
+   overflow-y: hidden;
+     
+ }
+
+ .seenotegrid1{
+  overflow-y: scroll;
+ }
+
+ .seenotegrid2{
+  background-color:      #9800ac5d;  
+  height:100vh;
+  border-left:5px solid   #f3f3f300;
+ 
+   
+ }
+ .sepdiv{
+  background-color:  rgba(0, 0, 0, 0.295);
+  height:5px;
+  
+ }
+
+ .seenotegrid2 .buttoncol button{
+  width:90%;
+  height:60px;
+  margin-top: 10px;
+  background-color:  rgba(255, 255, 255, 0.685);
+ border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#333;
+    font-family: fantasy;
+    font-size: 23px;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+ }
+ .seenotegrid2 button:hover{
+ background-color:  rgb(68, 175, 139);
+ }
+ 
+ .logtosee{
+  height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 50px;
+color:white;
+font-family: Cairo;
+ 
+ }
+
+ .topicscontainer{
+  width: 90%;
+  height:fit-centent;
+  max-height: 50%;
+   padding:9px 0;
+  background-color:  rgba(255, 255, 255, 0.658);
+   margin: 15px auto;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.minitopicscontainer{
+  background-color: white;
+  margin:0 auto;
+  margin-top:3px;
+  width:90%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+ 
+}
+ 
+
+.minitopicscontainer p{
+  padding: 3px 0;
+  color:#333;
+}
+
+ /** note buttons  **/
+
+ .notecontainer .seenote{
+  height:30px;
+  width:18%;
+  margin:0 5px 13px 5px;
+  padding:1px 0 0 0;
+  font-size: 15px;
+  background-color:  rgba(255, 255, 255, 0.692);
+  border-radius: 3px;
+  margin-right: 5px;
+  border:1px  solid  rgba(255, 255, 255, 0.678);
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+ }
+  
+.db:hover{
+  background-color: red;
+}
+.eb:hover{
+  background-color: rgb(25, 25, 255);
+}
+.sb:hover{
+  background-color: rgb(0, 163, 0);
+}
+.cb:hover{
+  background-color: rgb(255, 35, 35);
+}
+
+.topicscontainer button{
+  width:100%;
+  background-color:white;
+  border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top:5px;
+    height:19px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.allnotesbtn{
+  width:100% !important;
+ padding:12px 0 !important;
+  border-radius:0px !important;
+  background-color:rgba(149, 14, 228, 0.425) !important;
+  margin-bottom: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.allnotesbtn:hover{
+ 
+  background-color:rgba(149, 14, 228, 0.726) !important;
+ 
+}
+
+
+/***********************************/
+
+/** edit inputs **/
+ .editinput{
+  resize: none;
+  overflow-y: scroll;
+  height:200px;
+  width:80%;
+  outline: none;
+  border:none;
+   margin-bottom: 10px;
+   padding: 10px 20px;
+   font-size: 15px;
+   font-family: Cairo;
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+    
+ }
+
+ button{
+  cursor:pointer;
+
+ }
+ .editinput2{
+  margin-bottom: 5px;
+  width:85%;
+  border-radius: 5px;
+  border:none;
+  height:22px;
+  outline:none;
+padding-left: 5px;
+padding-top: 3px;
+padding-bottom: 3px ;
+font-size: 18px;
+font-family: Cairo;
+text-align: center;
+ }
+
+.idate{
+  color:#333;
+  font-size: 13px;
+}
+ 
+
+.pinknote{
+ 
+  height:25px;
+  width:25px;
+}
+
+.togglem{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+overflow-y: hidden;
+z-index:5;
+ 
+}
+.togglem iframe{
+ border:none;
+  border-radius:15px;
+  position: absolute;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.darkenback{
+ filter:brightness(10%)
+}
+.quitbutton{
+  position:absolute;
+  right:5px;
+  top:5px;
+  overflow-y: hidden;
+  background-color:rgba(255, 255, 255, 0);
+  color:white;
+  border:none;
+  font-size:15px;
+   cursor: pointer;
+   z-index:7;
+}
+
+
+pre{
+  white-space: pre-wrap;       /* css-3 */
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#resdisplay2 j{
+text-transform:uppercase;
+color:rgb(90, 31, 156);
+}
+ 
+.deleteper{
+  background-color: rgb(168, 36, 230);
+  border-radius: 10px;
+  width:340px;
+  height:120px;
+  position: absolute;
+  margin-left: auto;
+ margin-right: auto;
+ margin-top: auto;
+ margin-bottom: auto;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+
+}
+.deleteper p{
+  color:white;
+  font-family:Cairo;
+}
+
+.deleteper button{
+  width:80px;
+  height:30px;
+  margin:0 40px;
+  background-color: white;
+  border:none;
+  outline:none;
+  border-radius: 5px;
+  font-family: Cairo;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+}
+.deleteper button:hover{
+  background-color:rgb(207, 207, 207) ;
+}
+
+.deleteper_notseeable{
+  filter:brightness(20%)
+}
+
+.pickbutton:focus{
+background-color: rgb(68, 175, 139);
+}

@@ -1,0 +1,70 @@
+/** scroll bar of the page **/
+#user-list::-webkit-scrollbar {
+  width: 0.7em;
+ 
+}
+ 
+#user-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+#user-list::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+
+}
+
+.users-container{
+    background-color: #333;
+    width: 100%;
+}
+
+.users-container input{
+    padding: 5px ;
+    margin: 38px;
+    border: none;
+    border-radius: 3px;
+    border: 10px solid #181818;
+    width: 350px;
+}
+.users-container{
+    padding: 20px;
+}
+#user-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #181818;
+    height: 400px;
+    overflow-y: scroll;
+  }
+  
+  #user-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .username {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+  }

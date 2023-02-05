@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;800&family=Roboto+Slab:wght@600;700&display=swap');
+
+ 
+.dashboard{
+  width: 200px;
+  background-color: #181818;
+  padding: 20px;
+  height: 100vh;
+  
+}
+
+.dashboard div{
+    background-color: #252525;
+    margin: 7px;
+    border-radius: 3px;
+    padding: 8px;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family: cairo;
+}

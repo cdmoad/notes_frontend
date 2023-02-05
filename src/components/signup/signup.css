@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;800&family=Roboto+Slab:wght@600;700&display=swap');
+
+.signupcontainer{
+    height:100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../../public/bg4.jpg);
+     background-size: cover;
+     overflow-y:hidden;
+     font-family: cairo;
+}
+
+.signupheader{
+    display: block;
+    font-family: Cairo;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #a281c4 ;
+    color:white;
+}
+.signupform{
+    height:fit-content !important;   
+}
+
+.signupform div{
+    display: block;
+    padding: 10px;
+}
+
+.formbox{
+    background-color: rgb(255, 255, 255);
+     height:608px;
+     width:35%;
+     border-radius: 15px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 3.6px;
+}
+.signupform div input{
+    background-color:  rgb(255, 255, 255) ;
+    border:1px solid rgb(165, 165, 165);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    outline: none;
+    border-radius: 15px;
+    height:40px;
+    width:60%;
+    padding-left: 15px;
+  
+}
+
+.signupform div button{
+    width:120px;
+    height:30px;
+    background-color: #a281c4;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: Cairo;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px;
+    color:white;
+    
+}
+.signupform div button:hover{
+    background-color: #9568c3;
+    cursor: pointer;
+}
+
+.signupform div p{
+    font-size: 15px;
+    padding-top: 0;
+ 
+}
+
+.relerror{
+     font-size: 14px;
+color:rgb(255, 53, 53);
+font-family: cairo;
+}
+.emailsent{
+    color:  #a281c4;
+    margin:0;
+}
+
+ .verify_form .verifyinput{
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    width:75px;
+    height:25px;
+    font-size: 15px;
+    padding: 0 5px;
+    font-size: 18px;
+    background-color:  rgb(255, 255, 255) ;
+    border:1px solid rgb(165, 165, 165);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+ }
+
+ .verify_form button{
+    margin-left: 5px;
+    margin-right: 20px;
+    height:25px;
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0) ;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    color:white;
+
+ }
+ .verify_form button:hover{
+background-color: rgb(39, 39, 39);
+ }
+
+.verify_form{
+     
+    padding-bottom: 20px;
+    margin:0 10%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.09) 2px 4px 4px 2px inset;
+    background-color: #a281c4;
+}
+ 
+.ifAlrSignup{
+margin:0;
+}
